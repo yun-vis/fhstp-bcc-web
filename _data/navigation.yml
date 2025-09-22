@@ -1,19 +1,9 @@
 # main links
 main:
-  - title: "Experience"
-    url: /pages/experience
+  - title: "Setup"
+    url: /pages/setup
   - title: "Research"
-    url: /pages/research
-  - title: "Publications"
-    url: /pages/publications
-  - title: "Projects"
-    url: /pages/projects
-  - title: "Activities"
-    url: /pages/activities
-  - title: "Teaching"
-    url: /pages/teaching
-  - title: "Links"
-    url: /pages/links
+    url: /pages/firstsite
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
