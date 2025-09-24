@@ -6,8 +6,15 @@ title: "Setup"
 header:
   image: /assets/images/teaser/teaser.png
   caption: "Image credit: [**Yun**](http://yun-vis.net)"
-last_modified_at: 2025-09-22
+last_modified_at: 2025-09-23
 ---
+
+# Demo Environment
+
+- Language: English
+- OS: Windows 11
+- Code Editor: VS Code
+- Browser: Google Chrome
 
 # Editor Installation
 
@@ -46,7 +53,7 @@ last_modified_at: 2025-09-22
   - Adding Extensions
 
 - Shortcut
-  - Ctrl + S: save the file, or File -> Auto Save
+  - Ctrl + S: save the file, or File -> Auto Save in VS Code
   - Ctrl + A: select all texts
   - Ctrl + /: enable/disable comments
   - Alt + Shift + F (Windows)/ Option + Shift + F (Mac OS): automatic formatting
@@ -72,8 +79,10 @@ last_modified_at: 2025-09-22
 
 # References
 
-- [HTML & CSS lessons on Codecademy](https://www.codecademy.com/learn/learn-html-fundamentals)
+- [Official W3C standards and drafts](https://www.w3.org/TR/)
+- [MDN Web Docs](https://developer.mozilla.org/en-US/)
 - [w3school HTML Tutorial](https://www.w3schools.com/html/default.asp)
+- [HTML & CSS lessons on Codecademy](https://www.codecademy.com/learn/learn-html-fundamentals)
 - 
 - [Grammarly (Online English Grammar Checker)](https://app.grammarly.com/)
 - [DeepL Translator](https://www.deepl.com/en/translator)
