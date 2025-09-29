@@ -4,7 +4,7 @@ main:
     url: /pages/setup
   - title: "First Site"
     url: /pages/firstsite
-  - title: "Cascading Style Sheets (CSS)"
+  - title: "CSS"
     url: /pages/css
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
