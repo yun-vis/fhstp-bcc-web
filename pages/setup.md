@@ -6,7 +6,7 @@ title: "Setup"
 header:
   image: /assets/images/teaser/teaser.png
   caption: "Image credit: [**Yun**](http://yun-vis.net)"
-last_modified_at: 2025-09-23
+last_modified_at: 2025-09-24
 ---
 
 # Demo Environment
@@ -33,10 +33,10 @@ last_modified_at: 2025-09-23
 
 ## Other Online Tools
 
-- [jsbin](https://jsbin.com/)
-- [codepen.io](https://codepen.io/)
+- [JS Bin](https://jsbin.com/): An online code editor for HTML, CSS & JavaScript. 
+- [codepen.io](https://codepen.io/): CodePen is a social development environment for front-end designers and developers.
 
-## How to use VS code
+## How to use VS Code
 
 - [Visual Studio Code documentation](https://code.visualstudio.com/docs)
   - [Getting-started](https://code.visualstudio.com/docs/getstarted/getting-started)
@@ -60,6 +60,10 @@ last_modified_at: 2025-09-23
   - [VS Code shortcut](https://shortcuts.design/tools/toolspage-visualstudiocode/)
   - Alt+L and then Alt+O: enable Live Server
   - Ctrl + Shift + V or Ctrl + K V: Open Preview of Markdown All in One (Extension)
+
+- Notes
+  - Setup the default browser for Live Server: Windows Search -> Setting -> Apps -> Default Apps -> Google Chrome
+  - Do not use Debugger in the VS Code for html pages
 
 # Your First HTML Template
 

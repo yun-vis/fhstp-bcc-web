@@ -2,7 +2,7 @@
 # permalink: /404.html
 layout: single
 classes: wide
-title: "Your First Website"
+title: "Cascading Style Sheets (CSS)"
 header:
   image: /assets/images/teaser/teaser.png
   caption: "Image credit: [**Yun**](http://yun-vis.net)"
