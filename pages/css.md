@@ -610,6 +610,22 @@ input[required] {
                         required><br>
                 </form>
 
+                <!-- <form>
+                    <p>
+                        <label
+                            for="name">Name:</label>
+                        <input type="text"
+                            placeholder="Text input (type='text')">
+                    </p>
+                    <p>
+                        <label
+                            for="content">Content:</label>
+                        <input type="text"
+                            placeholder="Required field"
+                            required>
+                    </p>
+                </form>
+                 -->
                 <h2>About the Workshop</h2>
 
                 <p>
