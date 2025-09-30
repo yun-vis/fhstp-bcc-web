@@ -6,7 +6,7 @@ title: "Flexbox"
 header:
   image: /assets/images/teaser/teaser.png
   caption: "Image credit: [**Yun**](http://yun-vis.net)"
-last_modified_at: 2025-09-29
+last_modified_at: 2025-09-30
 ---
 
 # Layout without using Flexbox
@@ -183,7 +183,8 @@ input[required] {
 <head>
     <meta charset="UTF-8">
     <title>My UE3 Website</title>
-    <link rel="stylesheet" href="css/style-04a.css">
+    <link rel="stylesheet"
+        href="css/style-04a.css">
 </head>
 
 <body>
@@ -205,76 +206,65 @@ input[required] {
 
             <!-- The <section> element defines a section in a document. -->
             <section>
-                <h2>Workshop</h2>
+
                 <p class="bold">
                     On December 2020, the St.
-                    Pölten Sample Club will
-                    again
-                    be holding a full-day
-                    workshop
-                    on the topic of "Dealing
-                    with
+                    Pölten Sample Club will again
+                    be holding a full-day workshop
+                    on the topic of "Dealing with
                     social media" at the St.
-                    Pölten University of
-                    Applied
-                    Sciences. The following
-                    topics
-                    will be discussed: What is
-                    the
-                    difference between
-                    Facebook,
+                    Pölten University of Applied
+                    Sciences. The following topics
+                    will be discussed: What is the
+                    difference between Facebook,
                     Whatsapp and Co. How do I
-                    protect my privacy on
-                    social
+                    protect my privacy on social
                     platforms?
                 </p>
+
                 <form>
-                    <input type="text"
-                        placeholder="Text input (type='text')"><br><br>
-                    <input type="text"
-                        placeholder="Required field"
-                        required><br>
+                    <p>
+                        <label
+                            for="name">Name:</label>
+                        <input type="text"
+                            placeholder="Text input (type='text')">
+                    </p>
+                    <p>
+                        <label
+                            for="content">Content:</label>
+                        <input type="text"
+                            placeholder="Required field"
+                            required>
+                    </p>
                 </form>
+
+                <h2>About the Workshop</h2>
+
                 <p>
-                    Lorem ipsum dolor sit
-                    amet,
-                    consetetur sadipscing
-                    elitr,
-                    sed diam nonumy eirmod
-                    tempor
-                    invidunt ut labore et
-                    dolore
-                    magna aliquyam erat, sed
-                    diam
+                    Lorem ipsum dolor sit amet,
+                    consetetur sadipscing elitr,
+                    sed diam nonumy eirmod tempor
+                    invidunt ut labore et dolore
+                    magna aliquyam erat, sed diam
                     voluptua. At vero eos et
-                    accusam et justo duo
-                    dolores
-                    et ea rebum. Stet clita
-                    kasd
+                    accusam et justo duo dolores
+                    et ea rebum. Stet clita kasd
                     gubergren, no sea takimata
-                    sanctus est Lorem ipsum
-                    dolor
-                    sit amet. Lorem ipsum
-                    dolor
+                    sanctus est Lorem ipsum dolor
+                    sit amet. Lorem ipsum dolor
                     sit amet, consetetur
                     sadipscing elitr, sed diam
-                    nonumy eirmod tempor
-                    invidunt
+                    nonumy eirmod tempor invidunt
                     ut labore et dolore magna
                     aliquyam erat, sed diam
                     voluptua. At vero eos et
-                    accusam et justo duo
-                    dolores
-                    et ea rebum. Stet clita
-                    kasd
+                    accusam et justo duo dolores
+                    et ea rebum. Stet clita kasd
                     gubergren, no sea takimata
-                    sanctus est Lorem ipsum
-                    dolor
-                    sit amet. Lorem ipsum
-                    dolor
+                    sanctus est Lorem ipsum dolor
+                    sit amet. Lorem ipsum dolor
                     sit amet, consetetur
-                    sadipscing elitr, sed
-                    diam.
+                    sadipscing elitr, sed diam.
                 </p>
             </section>
 
@@ -282,12 +272,8 @@ input[required] {
             <aside>
                 <h2>Target group</h2>
                 <p>People who have little
-                    experience
-                    with
-                    social media and would
-                    like to
-                    know
-                    more
+                    experience with social media
+                    and would like to know more
                     about it.</p>
 
                 <h2>Facts and figures</h2>
@@ -548,8 +534,10 @@ input[required] {
 <head>
     <meta charset="UTF-8">
     <title>My UE3 Website</title>
-    <link rel="stylesheet" href="css/style-04.css">
-    <link rel="stylesheet" href="css/flexbox-04.css">
+    <link rel="stylesheet"
+        href="css/style-04.css">
+    <link rel="stylesheet"
+        href="css/flexbox-04.css">
 </head>
 
 <body>
@@ -599,76 +587,65 @@ input[required] {
             <!-- The <section> element defines a section in a document. -->
             <section
                 class="container flex-item-first">
-                <h2>Workshop</h2>
+
                 <p class="bold">
                     On December 2020, the St.
-                    Pölten Sample Club will
-                    again
-                    be holding a full-day
-                    workshop
-                    on the topic of "Dealing
-                    with
+                    Pölten Sample Club will again
+                    be holding a full-day workshop
+                    on the topic of "Dealing with
                     social media" at the St.
-                    Pölten University of
-                    Applied
-                    Sciences. The following
-                    topics
-                    will be discussed: What is
-                    the
-                    difference between
-                    Facebook,
+                    Pölten University of Applied
+                    Sciences. The following topics
+                    will be discussed: What is the
+                    difference between Facebook,
                     Whatsapp and Co. How do I
-                    protect my privacy on
-                    social
+                    protect my privacy on social
                     platforms?
                 </p>
+
                 <form>
-                    <input type="text"
-                        placeholder="Text input (type='text')"><br><br>
-                    <input type="text"
-                        placeholder="Required field"
-                        required><br>
+                    <p>
+                        <label
+                            for="name">Name:</label>
+                        <input type="text"
+                            placeholder="Text input (type='text')">
+                    </p>
+                    <p>
+                        <label
+                            for="content">Content:</label>
+                        <input type="text"
+                            placeholder="Required field"
+                            required>
+                    </p>
                 </form>
+
+                <h2>About the Workshop</h2>
+
                 <p>
-                    Lorem ipsum dolor sit
-                    amet,
-                    consetetur sadipscing
-                    elitr,
-                    sed diam nonumy eirmod
-                    tempor
-                    invidunt ut labore et
-                    dolore
-                    magna aliquyam erat, sed
-                    diam
+                    Lorem ipsum dolor sit amet,
+                    consetetur sadipscing elitr,
+                    sed diam nonumy eirmod tempor
+                    invidunt ut labore et dolore
+                    magna aliquyam erat, sed diam
                     voluptua. At vero eos et
-                    accusam et justo duo
-                    dolores
-                    et ea rebum. Stet clita
-                    kasd
+                    accusam et justo duo dolores
+                    et ea rebum. Stet clita kasd
                     gubergren, no sea takimata
-                    sanctus est Lorem ipsum
-                    dolor
-                    sit amet. Lorem ipsum
-                    dolor
+                    sanctus est Lorem ipsum dolor
+                    sit amet. Lorem ipsum dolor
                     sit amet, consetetur
                     sadipscing elitr, sed diam
-                    nonumy eirmod tempor
-                    invidunt
+                    nonumy eirmod tempor invidunt
                     ut labore et dolore magna
                     aliquyam erat, sed diam
                     voluptua. At vero eos et
-                    accusam et justo duo
-                    dolores
-                    et ea rebum. Stet clita
-                    kasd
+                    accusam et justo duo dolores
+                    et ea rebum. Stet clita kasd
                     gubergren, no sea takimata
-                    sanctus est Lorem ipsum
-                    dolor
-                    sit amet. Lorem ipsum
-                    dolor
+                    sanctus est Lorem ipsum dolor
+                    sit amet. Lorem ipsum dolor
                     sit amet, consetetur
-                    sadipscing elitr, sed
-                    diam.
+                    sadipscing elitr, sed diam.
                 </p>
             </section>
 
@@ -676,12 +653,8 @@ input[required] {
             <aside class="flex-item-second">
                 <h2>Target group</h2>
                 <p>People who have little
-                    experience
-                    with
-                    social media and would
-                    like to
-                    know
-                    more
+                    experience with social media
+                    and would like to know more
                     about it.</p>
 
                 <h2>Facts and figures</h2>
@@ -823,8 +796,10 @@ li:hover > ul.drop-menu {
 <head>
     <meta charset="UTF-8">
     <title>My UE3 Website</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/flexbox.css">
+    <link rel="stylesheet"
+        href="css/style-04.css">
+    <link rel="stylesheet"
+        href="css/flexbox-05.css">
 </head>
 
 <body>
@@ -875,7 +850,6 @@ li:hover > ul.drop-menu {
             <!-- The <section> element defines a section in a document. -->
             <section
                 class="container flex-item-first">
-                <h2>Workshop</h2>
 
                 <p class="bold">
                     On December 2020, the St.
@@ -891,13 +865,25 @@ li:hover > ul.drop-menu {
                     protect my privacy on social
                     platforms?
                 </p>
+
                 <form>
-                    <input type="text"
-                        placeholder="Text input (type='text')"><br><br>
-                    <input type="text"
-                        placeholder="Required field"
-                        required><br>
+                    <p>
+                        <label
+                            for="name">Name:</label>
+                        <input type="text"
+                            placeholder="Text input (type='text')">
+                    </p>
+                    <p>
+                        <label
+                            for="content">Content:</label>
+                        <input type="text"
+                            placeholder="Required field"
+                            required>
+                    </p>
                 </form>
+
+                <h2>About the Workshop</h2>
+
                 <p>
                     Lorem ipsum dolor sit amet,
                     consetetur sadipscing elitr,

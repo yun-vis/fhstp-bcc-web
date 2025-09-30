@@ -6,7 +6,7 @@ title: "Cascading Style Sheets (CSS)"
 header:
   image: /assets/images/teaser/teaser.png
   caption: "Image credit: [**Yun**](http://yun-vis.net)"
-last_modified_at: 2025-09-29
+last_modified_at: 2025-09-30
 ---
 
 # HTML Styles - CSS
@@ -37,7 +37,8 @@ The most common way to add CSS, is to keep the styles in external CSS files. How
 <body style="background-color: #CCCCCC;">
 
     <!-- Inline CSS -->
-    <h1 style="color: chocolate;">Dealing with social media</h1>
+    <h1 style="color: chocolate;">Dealing with
+        social media</h1>
     <img src="images/header.jpg"
         alt="Social Media Icons" width="780">
     <p>
@@ -50,6 +51,7 @@ The most common way to add CSS, is to keep the styles in external CSS files. How
         between Facebook, Whatsapp and Co. How do
         I protect my privacy on social platforms?
     </p>
+
     <p>
         Lorem ipsum dolor sit amet, consetetur
         sadipscing elitr, sed diam nonumy eirmod
@@ -70,12 +72,14 @@ The most common way to add CSS, is to keep the styles in external CSS files. How
         elitr, sed diam.
     </p>
 
-    <h2 style="color: chocolate;">Target group</h2>
+    <h2 style="color: chocolate;">Target group
+    </h2>
     <p>People who have little experience with
         social media and would like to know more
         about it.</p>
 
-    <h2 style="color: chocolate;">Facts and figures</h2>
+    <h2 style="color: chocolate;">Facts and
+        figures</h2>
     <ul>
         <li>Date: December 24, 2020</li>
         <li>Time: 7:00 p.m.</li>
@@ -140,6 +144,7 @@ The most common way to add CSS, is to keep the styles in external CSS files. How
         between Facebook, Whatsapp and Co. How do
         I protect my privacy on social platforms?
     </p>
+
     <p>
         Lorem ipsum dolor sit amet, consetetur
         sadipscing elitr, sed diam nonumy eirmod
@@ -230,6 +235,7 @@ h2 {
         between Facebook, Whatsapp and Co. How do
         I protect my privacy on social platforms?
     </p>
+
     <p>
         Lorem ipsum dolor sit amet, consetetur
         sadipscing elitr, sed diam nonumy eirmod
@@ -288,7 +294,8 @@ h2 {
 <head>
     <meta charset="UTF-8">
     <title>My UE2 Website</title>
-    <link rel="stylesheet" href="css/style-01.css">
+    <link rel="stylesheet"
+        href="css/style-01.css">
 </head>
 
 <body>
@@ -305,6 +312,7 @@ h2 {
 
         <!-- The <section> element defines a section in a document. -->
         <section>
+
             <p>
                 On December 2020, the St. Pölten
                 Sample Club will again be holding
@@ -317,6 +325,9 @@ h2 {
                 Whatsapp and Co. How do I protect
                 my privacy on social platforms?
             </p>
+
+            <!-- <h2>About the Workshop</h2> -->
+
             <p>
                 Lorem ipsum dolor sit amet,
                 consetetur sadipscing elitr, sed
@@ -381,7 +392,7 @@ h2 {
 </html>
 ```
 
-# CSS Selector
+# Semantics + CSS Selector
 
 ```css
 /* --- Basic Selectors --- */
@@ -576,7 +587,6 @@ input[required] {
 
             <!-- The <section> element defines a section in a document. -->
             <section class="container">
-                <h2>Workshop</h2>
                 <p class="bold">
                     On December 2020, the St.
                     Pölten Sample Club will again
@@ -591,6 +601,7 @@ input[required] {
                     protect my privacy on social
                     platforms?
                 </p>
+                
                 <form>
                     <input type="text"
                         placeholder="Text input (type='text')"><br><br>
@@ -598,6 +609,9 @@ input[required] {
                         placeholder="Required field"
                         required><br>
                 </form>
+
+                <h2>About the Workshop</h2>
+
                 <p>
                     Lorem ipsum dolor sit amet,
                     consetetur sadipscing elitr,

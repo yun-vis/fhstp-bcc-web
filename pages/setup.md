@@ -6,7 +6,7 @@ title: "Setup"
 header:
   image: /assets/images/teaser/teaser.png
   caption: "Image credit: [**Yun**](http://yun-vis.net)"
-last_modified_at: 2025-09-24
+last_modified_at: 2025-09-30
 ---
 
 # Demo Environment
@@ -82,11 +82,15 @@ last_modified_at: 2025-09-24
 ```
 
 # References
-
 - [Official W3C standards and drafts](https://www.w3.org/TR/)
+- [Official W3C HTML5 - Living Standard](http://www.w3.org/TR/html5/)
 - [MDN Web Docs](https://developer.mozilla.org/en-US/)
 - [w3school HTML Tutorial](https://www.w3schools.com/html/default.asp)
 - [HTML & CSS lessons on Codecademy](https://www.codecademy.com/learn/learn-html-fundamentals)
-- 
+
 - [Grammarly (Online English Grammar Checker)](https://app.grammarly.com/)
 - [DeepL Translator](https://www.deepl.com/en/translator)
+
+# Terminology
+
+- **Content syndication**: means republishing the same piece of content -- an article, a video, an infographic, etc. -- on one or more different websites.
