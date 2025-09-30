@@ -84,6 +84,7 @@ last_modified_at: 2025-09-30
 # References
 - [Official W3C standards and drafts](https://www.w3.org/TR/)
 - [Official W3C HTML5 - Living Standard](http://www.w3.org/TR/html5/)
+- [Official W3C CSS - Cascading Style Sheets home page](https://www.w3.org/TR/css-2025/)
 - [MDN Web Docs](https://developer.mozilla.org/en-US/)
 - [w3school HTML Tutorial](https://www.w3schools.com/html/default.asp)
 - [HTML & CSS lessons on Codecademy](https://www.codecademy.com/learn/learn-html-fundamentals)

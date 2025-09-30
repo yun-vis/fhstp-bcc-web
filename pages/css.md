@@ -554,6 +554,20 @@ input[type="text"] {
 input[required] {
   border: 2px dashed red;
 }
+
+/* 
+li[class] {
+  font-size: 120%;
+}
+
+li[class="highlight"] {
+  background-color: yellow;
+}
+
+li[class~="highlight"] {
+  color: red;
+} 
+*/
 ```
 
 ```html
